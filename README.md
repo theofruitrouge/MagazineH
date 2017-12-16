@@ -1,29 +1,22 @@
-# Magazine
-Magazine : Blogging Theme for Pico CMS
+## This theme is still under development. It is based on Magazine for PicoCMS
 
-##Installation
-Download the magazine folder, upload it in the themes folder of your pico installation and change the following setting within your config.php:
+## MagazineH
+MagazineH : Blogging Theme for Hugo.io
+
+## Installation
+
+**Step 1** : Download the magazine-h folder or clone the repo, upload it in the themes folder of your hugo.io installation and change the following setting within your config.toml :
 ```sh
- $config['theme'] = 'magazine'; 
- $config['pages_order_by'] = 'date'; 
+ theme = "minimal"
+[params]
+pages_order_by = "date"
+author = "Your Name"
+authordescription = "Web Developer"
+authortwitter = "https://twitter.com/YourUsername"
+authorfacebook = "https://facebook.com/YourPage"
+authorinstagram = "https://www.instagram.com/YourUsername"
+authorimage = "http://yoursite.com/images/yourphoto.jpg"
+numPerPage = 16 // Number of posts on front page
 ```
 
-You must add these custom settings in your config file 
-```sh
-$config['author'] = 'Your Name';  
-$config['authordescription'] = 'Web Developer';
-$config['authortwitter'] = 'https://twitter.com/YourUsername'; 
-$config['authorfacebook'] = 'https://facebook.com/YourPage';
-$config['authorinstagram'] = 'https://www.instagram.com/YourUsername';
-$config['authorimage'] = 'http://yoursite.com/images/yourphoto.jpg';
-$config['numPerPage'] = 16; // Number of posts on front page
-```
-
-###Search & Categories
-To activate search & categories functionalities, Download the plugins folder, upload the two folders : (<a href="https://github.com/julindra/pico_categories_page">pico_categories_page</a>, <a href="https://github.com/mwgg/Pico-Search">pico_search</a>) in your plugins folder and download search.md & categories.md from content-sample and upload its to your content folder.
-
-###Front Page & Post Page
-Copy index.md & page.md from content-sample to your content folder and change the meta data 
-
-##<a href="http://freehtml5.co/demos/magazine/">Demo</a>
-
+**Step 2** : Copy index.md & page.md from content-sample to your content folder and change the meta data.
