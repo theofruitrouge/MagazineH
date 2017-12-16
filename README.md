@@ -1,4 +1,4 @@
-# This theme is still under development. It is based on Magazine for PicoCMS
+## This theme is still under development. It is based on Magazine for PicoCMS
 
 # MagazineH
 MagazineH : Blogging Theme for Hugo.io
